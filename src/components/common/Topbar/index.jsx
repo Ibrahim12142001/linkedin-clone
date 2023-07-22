@@ -17,6 +17,8 @@ return (
         <BsBriefcaseFill size={30} className="icon-small" />
         <AiFillMessage size={30} className="icon-small" />
         <AiFillBell size={30} className="icon-small" />
+        <AiFillBell size={30} className="icon-small" />
+
        
 
         </dive>
