@@ -20,6 +20,7 @@ export default function Login(){
         });
 
     }, [])
+   
     return loading ? <Loader /> : <LoginComponent />;
 
 }

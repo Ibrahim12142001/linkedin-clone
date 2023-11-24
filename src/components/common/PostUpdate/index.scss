@@ -3,9 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     .post-status{
 
-        width: 80%;
+        width: 550px;
+
         height: 100px;
         background-color: whitesmoke;
         margin-top: 40px;

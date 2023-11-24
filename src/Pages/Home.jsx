@@ -9,7 +9,7 @@ import Loader from "../components/common/Loader";
 export default function Home(){
     const [loading, setLoading] = useState(true)
     let navigate = useNavigate()
-    useEffect (() => {
+   useEffect (() => {
         onAuthStateChanged(auth, (res) => {
             if(!res?.accessToken){
                 navigate('/')
@@ -21,6 +21,7 @@ export default function Home(){
 
         });
     }, [])
+    
     return loading ? <Loader /> : <HomeComponent />;
 
 } 
